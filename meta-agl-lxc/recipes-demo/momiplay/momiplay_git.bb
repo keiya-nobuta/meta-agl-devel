@@ -15,7 +15,7 @@ SRC_URI = "git://github.com/AGLExport/momiplayer.git \
            file://momiplay.service \
            file://momiplay \
           "
-SRCREV = "963d4e8a60311794435824829b013505b80adc92"
+SRCREV = "b4715bf924ea295feaaf8fbdb4a9c3da75f57591"
 
 S = "${WORKDIR}/git"
 
