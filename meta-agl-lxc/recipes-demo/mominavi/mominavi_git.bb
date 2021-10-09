@@ -9,7 +9,7 @@ PV = "0.2.0"
 inherit qmake5 systemd
 
 DEPENDS = "qtbase qtquickcontrols2 qtlocation qtgraphicaleffects qtsvg qtwebsockets "
-RDEPENDS_${PN} = "qtsvg qtwebsockets "
+RDEPENDS_${PN} = "qtsvg qtwebsockets qtlocation"
 
 SRC_URI = "git://github.com/AGLExport/mominavi.git \
            file://mominavi.service \
