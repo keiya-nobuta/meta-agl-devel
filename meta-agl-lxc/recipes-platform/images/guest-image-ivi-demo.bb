@@ -5,6 +5,12 @@ require guest-image-minimal.bb
 
 IMAGE_INSTALL += " \
     weston \
-    weston-init \
-    weston-ini-conf-landscape \
+    wayland-ivi-extension \
+    ilm-manager \
+    weston-init-guest \
+    mominavi \
+    momiplay \
+    qtquickcontrols \
+    qtquickcontrols2 \
+    qtwayland \
 "

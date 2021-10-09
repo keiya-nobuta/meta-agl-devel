@@ -1,7 +1,7 @@
 [Unit]
 Description=AGL Cluster Reference GUI
-After=weston@root.service
-Requires=weston@root.service
+After=weston.service
+Requires=weston.service
 
 [Service]
 Environment=XDG_RUNTIME_DIR=/run/user/0
