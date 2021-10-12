@@ -30,6 +30,8 @@ do_install_append() {
 
 	install -m 0755 -d ${D}${sysconfdir}/default/
 	install -m 0755 ${WORKDIR}/mominavi ${D}${sysconfdir}/default/
+	
+	echo 'MOMIMAP_MAPBOX_ACCESS_TOKEN=${MOMIMAP_MAPBOX_ACCESS_TOKEN}' >> ${D}${sysconfdir}/default/mominavi
 }
 
 FILES_${PN} += " ${systemd_unitdir} ${sysconfdir}/*/* "
