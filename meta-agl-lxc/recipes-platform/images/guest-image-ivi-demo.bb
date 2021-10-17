@@ -11,6 +11,7 @@ IMAGE_INSTALL += " \
     weston-init-guest \
     mominavi \
     momiplay \
+    momiscreen \
     qtquickcontrols \
     qtquickcontrols2 \
     qtwayland \
