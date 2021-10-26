@@ -14,8 +14,4 @@ S = "${WORKDIR}/git"
 
 BRANCH = "master"
 SRC_URI = "git://git.automotivelinux.org/src/libcluster-api;protocol=https;branch=${BRANCH}"
-SRCREV = "fa8ad7927ede4f2a825021d13a8024742b8cb225"
-
-EXTRA_OECMAKE_append = " \
-        -DCMAKE_SYSROOT=${RECIPE_SYSROOT} \
-"
+SRCREV = "3ef96b9efb7c80f3f7a731379dcbfa9a21e2ceed"
